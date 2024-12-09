@@ -1,0 +1,44 @@
+/* Estilos Generales */
+.content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.testimonials {
+    margin-top: 40px;
+}
+
+blockquote {
+    background-color: #e9ecef;
+    border-left: 5px solid #4CAF50;
+    padding: 10px 20px;
+    margin: 20px 0;
+}

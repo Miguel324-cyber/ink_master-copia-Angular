@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+        display: flex;
+        justify-content: flex-end; /* Mueve el contenido al extremo derecho */
+        padding: 10px; 
+}
+
+.nav {
+    display: flex;
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el margen */
+}
+
+.nav-item {
+    margin-left: auto; /* Mueve el elemento al extremo derecho */
+}
